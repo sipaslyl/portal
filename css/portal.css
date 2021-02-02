@@ -1,10 +1,16 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Lato&display=swap');
+/* CSS HEX 
+--mauvelous: #f6a2a7ff;
+--purple-mountain-majesty: #9e7fc7ff;
+--floral-white: #fef8ecff;
+--baby-blue-eyes: #95c6eeff;
+--baby-blue: #71d9feff;
+*/
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #B49CD3;
+    font-family: 'Lato';
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -15,6 +21,7 @@ html {
 }
 
 h1 {
+    font-family: 'Bitter';
     font-weight: normal;
     margin: auto;
     background: #fff;
@@ -37,13 +44,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#9e7fc7ff;
     text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
+    color: white;
+    background-color: #F06F85;
     text-decoration: none;
 }
 
@@ -51,6 +58,10 @@ footer {
     clear: both;
     text-align: center;
     padding: 1em;
+}
+p span{
+    color:#F06F85;
+    font-weight:bold;
 }
 
 /* Responsive rules */

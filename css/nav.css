@@ -1,23 +1,33 @@
 /* Global rules */
+/* CSS HEX 
+--mauvelous: #f6a2a7ff;
+--purple-mountain-majesty: #9e7fc7ff;
+--floral-white: #fef8ecff;
+--baby-blue-eyes: #95c6eeff;
+--baby-blue: #71d9feff;
+--dark-slate-blue: #3b3271ff;
+*/
 .topnav {
     margin: auto;
-    background-color: rgb(95,95,95);
+    background-color: #a3a3a3;
     overflow: auto;
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: whitesmoke;
+    color: #fff;
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .topnav a.hover, .active {
-    background-color: darkcyan;
+    background-color: #F06F85;
+    
 }
 
 .topnav .icon {
